@@ -80,7 +80,7 @@ const Header: React.FC = () => {
 							<span className="text-primary-600 dark:text-primary-400">
 								adnan
 							</span>
-							<span className="text-neutral-800 dark:text-white">atif</span>
+							<span className="text-neutral-800 dark:text-white">ali</span>
 						</Link>
 
 						<nav className="hidden md:flex items-center space-x-8">

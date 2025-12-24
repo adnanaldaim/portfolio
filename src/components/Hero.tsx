@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(150);
 
-  const words = ['Designer', 'Developer'];
+  const words = ['Engineer', 'Developer'];
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -90,7 +90,7 @@ const Hero: React.FC = () => {
             ref={textRef}
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-neutral-800 dark:text-neutral-100 mb-8 leading-tight animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-300"
           >
-            <span className="block mb-2">Creative UI/UX</span>
+            <span className="block mb-2">Senior Full‑Stack </span>
             <span className="block min-h-[1.2em] items-center">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-accent-600 dark:from-primary-400 dark:to-accent-400">
                 {displayText}
@@ -98,13 +98,12 @@ const Hero: React.FC = () => {
               </span>
             </span>
             <span className="block text-2xl md:text-3xl lg:text-4xl mt-6 text-neutral-600 dark:text-neutral-300 font-normal">
-              Crafting Digital Experiences
+                6+ years building scalable .NET/ABP.IO applications, AI integrations, and enterprise SaaS platforms
             </span>
           </h1>
           
           <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-300 mb-8 max-w-2xl animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-500">
-            I design and develop user-centered interfaces that are both beautiful and functional. 
-            Specializing in creating seamless digital experiences that delight users and drive business growth.
+            I build intelligent, scalable applications that merge modern .NET development with AI capabilities. Specializing in Azure OpenAI integrations and ABP.IO frameworks to create future-proof SaaS products that outperform competitors.
           </p>
           
           <div className="flex justify-center animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-700">
