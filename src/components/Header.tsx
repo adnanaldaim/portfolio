@@ -89,7 +89,7 @@ const Header: React.FC = () => {
 								className={getLinkClass("about")}
 								onClick={handleSectionNav("about")}
 							>
-								About
+								What I Do
 							</a>
 							<a
 								href="#experience"
@@ -103,14 +103,21 @@ const Header: React.FC = () => {
 								className={getLinkClass("projects")}
 								onClick={handleSectionNav("projects")}
 							>
-								Projects
+								Case Studies
+							</a>
+							<a
+								href="#projects"
+								className={getLinkClass("projects")}
+								onClick={handleSectionNav("projects")}
+							>
+								Technical Expertise
 							</a>
 							<a
 								href="#contact"
 								className={getLinkClass("contact")}
 								onClick={handleSectionNav("contact")}
 							>
-								Contact
+								Hire Me
 							</a>
 							<ThemeToggle />
 						</nav>
